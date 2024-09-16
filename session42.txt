@@ -1,0 +1,17 @@
+Jenkinsfile  ---> CICD
+continous integration tool
+
+master ---> agent for heavy works 
+
+How to configure this
+
+Jenkins ---> Manage jenkins --> nodes --> (give there a proper name) --> click on the check box and then create
+
+we will get a bunch of options to fill
+
+
+
+Triggers
+
+1. webhook
+----------------------
