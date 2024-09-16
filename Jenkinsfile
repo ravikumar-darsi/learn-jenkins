@@ -7,7 +7,9 @@ pipeline {
   environment {
     GREETING = "Hello Friday"
   }
-
+  options {
+    timeout(time:1, unit: 'SECONDS')
+  }
   stages {
     stage('Build'){
       steps {
